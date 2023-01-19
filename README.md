@@ -18,37 +18,37 @@ Access the web UI at [http://localhost:9012](http://localhost:9012) and log in u
 * **password:** datahub
 
 ## User Interface
-![Settings User wizard](setting_user_wizard_01.png)
-![Settings Assign Roles wizard](settings_user_wizard_02_sso.png)
-![Settings User SSO Auth wizard](settings_user_wizard_03_invite.png)
-![Settings Assign Roles wizard](settings_user_wizard_04_assign_roles.png)
+![Settings User wizard](imgs/setting_user_wizard_01.png)
+![Settings Assign Roles wizard](imgs/settings_user_wizard_02_sso.png)
+![Settings User SSO Auth wizard](imgs/settings_user_wizard_03_invite.png)
+![Settings Assign Roles wizard](imgs/settings_user_wizard_04_assign_roles.png)
 
-![Settings Assign Roles wizard](settings_roles_wizard.png)
+![Settings Assign Roles wizard](imgs/settings_roles_wizard.png)
 * [Roles link](https://datahubproject.io/docs/authorization/roles)
 
-![Settings permissions](settings_manage_permissions_interface.png)
+![Settings permissions](imgs/settings_manage_permissions_interface.png)
 
 ## Ingestion
-![Running an ingestion](ingestion_running.png)
+![Running an ingestion](imgs/ingestion_running.png)
 
 I tried setting up an ingestion but it kept failing. I'm pretty sure I just wasn't using the right host or something. I tried following this [possibly relevant SO post](https://stackoverflow.com/questions/74677369/docker-network-connect-to-postgres-db-from-datahub-or-openmetadata-locally) but I couldn't get it sorted. This might also wind up being an issue in the OpenMetadata system too (at least until one platform gets integrated and put on the same docker network).
 
-![A non-working config](new_ingestion_source_advanced_config.png)
+![A non-working config](imgs/new_ingestion_source_advanced_config.png)
 
 There is a secrets backend, which is nice.
 
-![Scheduling an ingestion](ingestion_scheduling.png)
+![Scheduling an ingestion](imgs/ingestion_scheduling.png)
 
 ## Glossery
 
-![Glossery term defining](glossery_term_defn_page.png)
+![Glossery term defining](imgs/glossery_term_defn_page.png)
 
 ## Govern
 
-![Govern first tooltip](govern_domains_wizard.png)
+![Govern first tooltip](imgs/govern_domains_wizard.png)
 
 ## Misc
-![Settings Assign Roles wizard](following_landing_page_tool_tip.png)
+![Settings Assign Roles wizard](imgs/following_landing_page_tool_tip.png)
 
 
 # Impressions
